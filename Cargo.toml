@@ -1,0 +1,19 @@
+[package]
+name = "commkit-hal-stm32f4xx"
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+description = "Hardware abstractions for the STM32 line of microcontrollers"
+repository = "https://github.com/commkit-rs/commkit-hal-stm32"
+readme = "README.md"
+authors = ["Nick Daria <contact@nickdaria.com>"]
+categories = ["embedded", "no-std", "stm32"]
+keywords = ["stm32"]
+
+[dependencies]
+bxcan = "0.8"
+commkit = { path = "../commkit", version = "0.1.0" }
+commkit-can = { path = "../commkit-can", version = "0.1.0" }
+commkit-uart = { path = "../commkit-uart", version = "0.1.0" }
+embedded-hal-nb = "1.0"
+nb = "1.1"

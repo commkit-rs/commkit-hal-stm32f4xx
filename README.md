@@ -1,2 +1,3 @@
-# commkit-hal-stm32
-Hardware abstractions for the STM32 line of microcontrollers
+# commkit-hal-stm32f4xx
+
+Hardware abstractions for the STM32F4 line of microcontrollers
